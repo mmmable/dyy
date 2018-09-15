@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17301607, g: 0.2162324, b: 0.29822183, a: 1}
+  m_IndirectSpecularColor: {r: 0.17301595, g: 0.21623227, b: 0.2982219, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3197,7 +3197,7 @@ RectTransform:
   - {fileID: 1893766073}
   - {fileID: 731218463}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3456,7 +3456,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 404878680}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1893766076}
+        m_MethodName: Back
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &404878680
@@ -6300,6 +6311,7 @@ GameObject:
   - component: {fileID: 731218463}
   - component: {fileID: 731218465}
   - component: {fileID: 731218464}
+  - component: {fileID: 731218466}
   m_Layer: 5
   m_Name: showscreen_Panel
   m_TagString: Untagged
@@ -6363,6 +6375,19 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 731218462}
+--- !u!114 &731218466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 731218462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4019cb717fb488340bdd126cd7bdb2dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  next: {fileID: 1893766072}
+  present: {fileID: 731218462}
 --- !u!1 &732432721
 GameObject:
   m_ObjectHideFlags: 0
@@ -7786,7 +7811,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 886347338}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 731218466}
+        m_MethodName: Next
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &886347338
@@ -8336,7 +8372,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 975141890}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1893766076}
+        m_MethodName: Next
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &975141890
@@ -15556,8 +15603,8 @@ MonoBehaviour:
   actualHeadset: {fileID: 1130805297}
   actualLeftController: {fileID: 1053558386}
   actualRightController: {fileID: 1740164327}
-  modelAliasLeftController: {fileID: 0}
-  modelAliasRightController: {fileID: 0}
+  modelAliasLeftController: {fileID: 106536895}
+  modelAliasRightController: {fileID: 177063183}
   cachedSystemSDKInfo:
     baseTypeName: VRTK.SDK_BaseSystem
     fallbackTypeName: VRTK.SDK_FallbackSystem
@@ -18305,6 +18352,7 @@ GameObject:
   - component: {fileID: 1893766073}
   - component: {fileID: 1893766075}
   - component: {fileID: 1893766074}
+  - component: {fileID: 1893766076}
   m_Layer: 5
   m_Name: showscreen_Panel (1)
   m_TagString: Untagged
@@ -18368,6 +18416,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1893766072}
+--- !u!114 &1893766076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1893766072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2bc7026082d34643a5bbfe328af2167, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  next: {fileID: 1109160008}
+  back: {fileID: 731218462}
+  present: {fileID: 1893766072}
 --- !u!1 &1895795345
 GameObject:
   m_ObjectHideFlags: 0
