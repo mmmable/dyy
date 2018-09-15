@@ -9,8 +9,11 @@ public class Changepanel : MonoBehaviour {
 
 	public void Next() {
         present.SetActive(false);
+        Debug.Log("The name of this object is " + present.name);
+
             next.SetActive(true);
-	}
+        Debug.Log("The name of this object is " + next.name);
+    }
     
 
 
