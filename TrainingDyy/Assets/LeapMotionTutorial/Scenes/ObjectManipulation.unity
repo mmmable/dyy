@@ -3356,6 +3356,7 @@ GameObject:
   - component: {fileID: 404878681}
   - component: {fileID: 404878680}
   - component: {fileID: 404878679}
+  - component: {fileID: 404878682}
   m_Layer: 5
   m_Name: back_Button
   m_TagString: Untagged
@@ -3467,6 +3468,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 404878677}
+--- !u!65 &404878682
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 404878677}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 30, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &405097793
 Prefab:
   m_ObjectHideFlags: 0
