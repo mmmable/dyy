@@ -4,13 +4,17 @@ using UnityEngine;
 
 public class ChangPanel_normal : MonoBehaviour {
 
-    
-    
         public GameObject next;
         public GameObject back;
         public GameObject present;
 
-        public void Next()
+    private void Start()
+    {
+        next.SetActive(false);
+    }
+
+
+    public void Next()
         {
             present.SetActive(false);
             next.SetActive(true);

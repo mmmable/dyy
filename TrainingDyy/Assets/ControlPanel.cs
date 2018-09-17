@@ -11,7 +11,7 @@ public class ControlPanel : MonoBehaviour {
     void Start()
     {
         controlPanel.SetActive(false);
-        star.SetActive(false);
+        //star.SetActive(false);
     }
 
     public void OpenPanel()
@@ -23,6 +23,6 @@ public class ControlPanel : MonoBehaviour {
     public void ClosePanel()
     {
         controlPanel.SetActive(false);
-        star.SetActive(false);
+        //star.SetActive(false);
     }
 }

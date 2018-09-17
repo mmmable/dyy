@@ -7,7 +7,12 @@ public class Changepanel : MonoBehaviour {
    
     public GameObject present;
 
-	public void Next() {
+    private void Start()
+    {
+        next.SetActive(false);
+    }
+
+    public void Next() {
         present.SetActive(false);
         Debug.Log("The name of this object is " + present.name);
 
