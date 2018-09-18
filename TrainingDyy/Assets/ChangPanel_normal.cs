@@ -10,7 +10,7 @@ public class ChangPanel_normal : MonoBehaviour {
 
     private void Start()
     {
-        next.SetActive(false);
+
     }
 
 
