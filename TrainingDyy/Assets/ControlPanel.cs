@@ -17,12 +17,12 @@ public class ControlPanel : MonoBehaviour {
     public void OpenPanel()
     {
         controlPanel.SetActive(true);
-        star.SetActive(true);
+        //star.SetActive(true);
     }
 
     public void ClosePanel()
     {
         controlPanel.SetActive(false);
-        star.SetActive(false);
+        //star.SetActive(false);
     }
 }
