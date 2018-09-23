@@ -9,6 +9,13 @@ public class Changepanel : MonoBehaviour {
     public GameObject p3;
     public GameObject p4;
     public GameObject p5;
+    public GameObject p6;
+    public GameObject p7;
+    public GameObject p8;
+    public GameObject p9;
+    public GameObject p10;
+    public GameObject p11;
+    public GameObject p12;
 
 
     public GameObject present;
@@ -20,6 +27,14 @@ public class Changepanel : MonoBehaviour {
         p3.SetActive(false);
         p4.SetActive(false);
         p5.SetActive(false);
+        p6.SetActive(false);
+        p7.SetActive(false);
+        p8.SetActive(false);
+        p9.SetActive(false);
+        p10.SetActive(false);
+        p11.SetActive(false);
+        p12.SetActive(false);
+     
     }
 
     public void Next() {
