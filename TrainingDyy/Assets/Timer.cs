@@ -41,6 +41,7 @@ public class Timer : MonoBehaviour
         timerDictionary.Add(7, 0f);
         timerDictionary.Add(8, 0f);
         timerDictionary.Add(9, 0f);
+        timerDictionary.Add(10, 0f);
 
 
         EnterPlane(0);
