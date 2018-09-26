@@ -7,12 +7,15 @@ public class MoveCube : MonoBehaviour {
 
     public GameObject c1;
     public Vector3 a;
+    public Vector3 startPos;
+
    // public targetPosition:Vector3=Vector3(10,0,0);//指定位置
 
     // Use this for initialization
     void Start () {
-       // c1.SetActive(true);
+        // c1.SetActive(true);
         //a = this.transform.position;
+        startPos = transform.localScale;
     }
 	
 	// Update is called once per frame
@@ -26,6 +29,8 @@ public class MoveCube : MonoBehaviour {
         // transform.position = Vector3.MoveTowards(transform.position, a, Time.deltaTime * 2);//移动到指定位置
         c1.SetActive(true);
         c1.transform.position = a;
+        c1.transform.rotation = Quaternion.identity;
+        c1.transform.localScale = startPos;
     }
 
 
