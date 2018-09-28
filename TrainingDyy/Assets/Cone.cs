@@ -5,13 +5,14 @@ using UnityEngine.UI;
 
 public class Cone : MonoBehaviour {
 
-    private Vector3 pointButton1;
-    private Vector3 pointButton2;
-    private Vector3 pointCone;
+    private float pointCanvas1;
+    private float pointCone;
+    private bool controlpanel;
 
     public GameObject cone;
-    public GameObject button1;
-    public GameObject button2;
+    public GameObject canvas1;
+    public GameObject canvas2;
+
 
 
 	void Start () {
@@ -23,23 +24,17 @@ public class Cone : MonoBehaviour {
 
 	void Update () {
 
-        pointCone = gameObject.transform.position;           //实时获取物体的位置
-        pointButton1 = button1.GetComponent<Transform>().position;      //实时获取购物车的位置
-        pointButton2 = button2.GetComponent<Transform>().position;
+        pointCone = gameObject.transform.position.z;           
+        pointCanvas1 = canvas1.GetComponent<Transform>().position.z;
+        controlpanel = canvas2.activeInHierarchy;
 
 
-        if (Vector3.Distance(pointButton1, pointCone) < 0.2) //判断以上两个位置之间的距离
+        if (pointCanvas1 - pointCone < 0.3 || controlpanel)
         {
             cone.GetComponent<Renderer>().enabled = true;
         }
 
-        if (Vector3.Distance(pointButton2, pointCone) < 0.2) //判断以上两个位置之间的距离
-        {
-            cone.GetComponent<Renderer>().enabled = true;
-        }
-
-        if (Vector3.Distance(pointButton1, pointCone) > 0.2 && Vector3.Distance(pointButton2, pointCone) > 0.2) //判断以上两个位置之间的距离
-      
+        else
             cone.GetComponent<Renderer>().enabled = false;
         }
 

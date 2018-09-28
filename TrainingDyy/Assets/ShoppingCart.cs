@@ -25,7 +25,7 @@ public class ShoppingCart : MonoBehaviour {
         if (Vector3.Distance(transform.position, pointCart) < 0.1)
         {
             Cart.GetComponent<MeshRenderer>().materials[0].color = Color.black;
-            Destroy(gameObject);                                     //销毁物体
+            gameObject.SetActive(false);                                     //销毁物体
             //AudioSource.PlayClipAtPoint(clip, transform.position);   //音效
         }
 
