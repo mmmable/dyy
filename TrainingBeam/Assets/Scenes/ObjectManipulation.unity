@@ -574,7 +574,6 @@ MonoBehaviour:
   c9: {fileID: 1561194435}
   c10: {fileID: 802279858}
   c11: {fileID: 1670089635}
-  c12: {fileID: 0}
 --- !u!114 &10513644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2293,7 +2292,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: View details
+  m_Text: 5.View details
 --- !u!222 &147232267
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2367,7 +2366,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enlarge
+  m_Text: 2.Enlarge
 --- !u!222 &150620474
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4671,7 +4670,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Close details
+  m_Text: 6.Close details
 --- !u!222 &275569015
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4767,6 +4766,7 @@ GameObject:
   m_Component:
   - component: {fileID: 311992374}
   - component: {fileID: 311992373}
+  - component: {fileID: 311992375}
   m_Layer: 0
   m_Name: CubeManager
   m_TagString: Untagged
@@ -4803,6 +4803,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &311992375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 311992372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: beaa6db7470f3b1438c058f4efd132fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cart: {fileID: 1020373405}
+  c1: {fileID: 1579710372}
+  a: {x: 0.05, y: 1.5, z: -0.15}
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &316427709
 GameObject:
   m_ObjectHideFlags: 0
@@ -6554,7 +6569,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 431283321}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7fc65878c7102524bb8c2bcfbefff497, type: 3}
   m_Name: 
@@ -8839,7 +8854,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 8 Change the Object size from small to medium to large
+  m_Text: 8 Change the Object size
 --- !u!222 &633457123
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10076,7 +10091,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Change size
+  m_Text: 8.Change size
 --- !u!222 &699421637
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12230,7 +12245,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Rotate
+  m_Text: 4.Rotate
 --- !u!222 &966748440
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16820,7 +16835,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Shrink
+  m_Text: 3.Shrink
 --- !u!222 &1363749067
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17007,7 +17022,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Grab
+  m_Text: 1.Grab
 --- !u!222 &1372388244
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17475,7 +17490,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 7 Change the Object color from red to green to blue
+  m_Text: 7 Change the Object color
 --- !u!222 &1434655414
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20014,7 +20029,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Change color
+  m_Text: 7.Change color
 --- !u!222 &1709316845
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20633,7 +20648,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1789895837}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7fc65878c7102524bb8c2bcfbefff497, type: 3}
   m_Name: 
@@ -20950,9 +20965,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84868bbf5e9fa334aaeda789667e5106, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  number: 3
+  number: 888
   name: Nancy
-  path: C:\Users\Public\Documents\Unity Projects\OOO\dyy\TrainingDyy\Assets\StreamData\Record
+  path: ssets\StreamData\Recordts\Unity Projects\OOO\dyy\TrainingBeam\Assets\StreamData\Record
 --- !u!4 &1797961830
 Transform:
   m_ObjectHideFlags: 0
@@ -23013,7 +23028,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!23 &1997684656
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23677,7 +23692,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Collect
+  m_Text: 9.Collect
 --- !u!222 &2074142999
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24289,7 +24304,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Add to box
+  m_Text: 10.Add to box
 --- !u!222 &2122529459
 CanvasRenderer:
   m_ObjectHideFlags: 0

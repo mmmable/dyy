@@ -32,7 +32,7 @@ public class Changepanel : MonoBehaviour {
     public GameObject c9;
     public GameObject c10;
     public GameObject c11;
-    public GameObject c12;
+    //public GameObject c12;
 
 
 
@@ -63,7 +63,7 @@ public class Changepanel : MonoBehaviour {
         c9.SetActive(false);
         c10.SetActive(false);
         c11.SetActive(false);
-        c12.SetActive(false);
+        //c12.SetActive(false);
 
     }
 
