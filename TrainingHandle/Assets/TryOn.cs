@@ -1,14 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class TryOn : MonoBehaviour {
+//手柄
+public class TryOn : MonoBehaviour
+{
 
     private Vector3 pointZero;
     private Vector3 pointCart;
     private Vector3 pointMove;
     public GameObject Cart;
-   // public GameObject c1;
+    // public GameObject c1;
     public GameObject c1;
     public Vector3 a;
     public Vector3 startPos;
@@ -18,7 +19,7 @@ public class TryOn : MonoBehaviour {
 
     void Start()
     {
-        pointZero = transform.position;
+        pointZero = c1.transform.position;
     }
 
     public void Update()
@@ -29,30 +30,32 @@ public class TryOn : MonoBehaviour {
 
         if (Vector3.Distance(pointMove, pointCart) < 0.1)
         {
+            Debug.Log("物体快要消失了");
             c1.SetActive(false);                                    //销毁物体
-                                                                    //AudioSource.PlayClipAtPoint(clip, transform.position);   //音效
+            Debug.Log("物体现在消失了");                                                      //AudioSource.PlayClipAtPoint(clip, transform.position);   //音效
 
             Invoke("Showthecube", 2);
         }
     }
     public void Showthecube()
     {
+        Debug.Log("showTheCube'函数被调用了");
         c1.SetActive(true);
-        c1.transform.position = a;
+        c1.transform.position = pointZero;
         c1.transform.rotation = Quaternion.identity;
         c1.transform.localScale = startPos;
     }
     //public void Delayshowthecube()
-   // {
+    // {
 
-        //print(Time.time);
-     //   Invoke("Showthecube", 2);
-        //print(Time.time);
-
-
-        //Debug.Log("invokeTest");
+    //print(Time.time);
+    //   Invoke("Showthecube", 2);
+    //print(Time.time);
 
 
+    //Debug.Log("invokeTest");
 
-   // }
+
+
+    // }
 }
