@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17301625, g: 0.2162327, b: 0.29822254, a: 1}
+  m_IndirectSpecularColor: {r: 0.17301595, g: 0.21623227, b: 0.2982219, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4788,7 +4788,7 @@ MonoBehaviour:
   c1: {fileID: 1579710372}
   cart: {fileID: 1708650834}
   a: {x: 0.05, y: 1.5, z: -0.15}
-  startPos: {x: 0, y: 0, z: 0}
+  startPos: {x: 0.2, y: 0.2, z: 0.2}
   red: {fileID: 2100000, guid: da8d6f3e1bf976449b69a9410559dafd, type: 2}
 --- !u!4 &311992374
 Transform:
@@ -12527,7 +12527,7 @@ Transform:
   m_GameObject: {fileID: 1020373405}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.35, z: -0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.2}
+  m_LocalScale: {x: 0.5, y: 0.6508314, z: 0.2261693}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
