@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17301595, g: 0.21623227, b: 0.2982219, a: 1}
+  m_IndirectSpecularColor: {r: 0.17301625, g: 0.2162327, b: 0.29822254, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7519,8 +7519,8 @@ Transform:
   m_PrefabParentObject: {fileID: 420908, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 477403959}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.14, z: -1.344}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.18, y: 0.16, z: -1.22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1053558388}
@@ -7528,7 +7528,7 @@ Transform:
   - {fileID: 491243962}
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &491243961
 GameObject:
   m_ObjectHideFlags: 0
@@ -12526,7 +12526,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1020373405}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.35, z: -0}
+  m_LocalPosition: {x: 0, y: -0.35, z: 0.21}
   m_LocalScale: {x: 0.5, y: 0.6508314, z: 0.2261693}
   m_Children: []
   m_Father: {fileID: 0}
@@ -18670,6 +18670,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Cart: {fileID: 1708650834}
+  other: {fileID: 311992373}
 --- !u!114 &1579710385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20983,6 +20984,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   number: 100
   name: Nancy
+  date: 
   path: C:\Users\Public\Documents\Unity Projects\OOO\dyy\TrainingHandle\Assets\StreamData\Record
 --- !u!4 &1797961830
 Transform:

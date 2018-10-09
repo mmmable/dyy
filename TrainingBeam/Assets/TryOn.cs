@@ -27,7 +27,7 @@ public class TryOn : MonoBehaviour {
         pointCart = Cart.GetComponent<Transform>().position; //实时获取购物车的位置
 
 
-        if (Vector3.Distance(pointMove, pointCart) < 0.1)
+        if (Vector3.Distance(pointMove, pointCart) < 0.15)
         {
             c1.SetActive(false);                                    //销毁物体
                                                                     //AudioSource.PlayClipAtPoint(clip, transform.position);   //音效

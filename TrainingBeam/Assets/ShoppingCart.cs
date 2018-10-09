@@ -9,6 +9,7 @@ public class ShoppingCart : MonoBehaviour {
     private Vector3 pointCart;
     private Vector3 pointMove;
     public GameObject Cart;
+    public MoveCube other;
     
     //public AudioClip clip;
 
@@ -26,8 +27,14 @@ public class ShoppingCart : MonoBehaviour {
         {
             Cart.GetComponent<MeshRenderer>().materials[0].color = Color.black;
             gameObject.SetActive(false);                                     //销毁物体
-            //AudioSource.PlayClipAtPoint(clip, transform.position);   //音效
-        }
+                                                                             //AudioSource.PlayClipAtPoint(clip, transform.position);   //音效
 
+            Invoke("Showthecube", 2);
+        }   
     }
+
+    public void Showthecube()
+        {
+            other.Move();
+        }
 }
