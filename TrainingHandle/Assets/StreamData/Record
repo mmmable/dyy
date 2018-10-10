@@ -1972,3 +1972,35 @@
     "timeCollectPanel_9": 0.0,
     "timeBoxPanel_10": 0.0
 }
+{
+    "playerNumber": 100,
+    "playerName": "Nancy",
+    "playerDate": "",
+    "timeEmpty_0": 46.81412887573242,
+    "timeGrabPanel_1": 13.494515419006348,
+    "timeEnlargePanel_2": 0.0,
+    "timeShrinkPanel_3": 0.0,
+    "timeRotatePanel_4": 0.0,
+    "timeViewPanel_5": 0.0,
+    "timeClosePanel_6": 0.0,
+    "timeColorPanel_7": 0.0,
+    "timeSizePanel_8": 0.0,
+    "timeCollectPanel_9": 0.0,
+    "timeBoxPanel_10": 0.0
+}
+{
+    "playerNumber": 100,
+    "playerName": "Nancy",
+    "playerDate": "",
+    "timeEmpty_0": 22.807554244995118,
+    "timeGrabPanel_1": 14.745838165283204,
+    "timeEnlargePanel_2": 19.311471939086915,
+    "timeShrinkPanel_3": 42.139915466308597,
+    "timeRotatePanel_4": 44.88737869262695,
+    "timeViewPanel_5": 45.0145149230957,
+    "timeClosePanel_6": 23.345380783081056,
+    "timeColorPanel_7": 22.552629470825197,
+    "timeSizePanel_8": 11.638054847717286,
+    "timeCollectPanel_9": 52.1418342590332,
+    "timeBoxPanel_10": 21.26527976989746
+}
