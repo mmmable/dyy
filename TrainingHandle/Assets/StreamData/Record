@@ -66,3 +66,20 @@
     "timeCollectPanel_9": 13.07114028930664,
     "timeBoxPanel_10": 14.834031105041504
 }
+{
+    "playerMode": "手柄",
+    "playerNumber": 1,
+    "playerName": "韩天邢",
+    "playerDate": "20181010",
+    "timeEmpty_0": 92.95431518554688,
+    "timeGrabPanel_1": 24.55243682861328,
+    "timeEnlargePanel_2": 25.69040298461914,
+    "timeShrinkPanel_3": 25.07499885559082,
+    "timeRotatePanel_4": 15.96373176574707,
+    "timeViewPanel_5": 133.9398651123047,
+    "timeClosePanel_6": 18.56538200378418,
+    "timeColorPanel_7": 26.96501922607422,
+    "timeSizePanel_8": 50.82150650024414,
+    "timeCollectPanel_9": 24.76396942138672,
+    "timeBoxPanel_10": 21.52106285095215
+}

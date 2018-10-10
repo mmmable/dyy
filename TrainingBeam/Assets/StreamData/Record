@@ -49,3 +49,20 @@
     "timeCollectPanel_9": 15.528111457824707,
     "timeBoxPanel_10": 12.196124076843262
 }
+{
+    "playerMode": "激光",
+    "playerNumber": 1,
+    "playerName": "韩天邢",
+    "playerDate": "20181010",
+    "timeEmpty_0": 38.19880676269531,
+    "timeGrabPanel_1": 19.558181762695314,
+    "timeEnlargePanel_2": 66.09113311767578,
+    "timeShrinkPanel_3": 28.259048461914064,
+    "timeRotatePanel_4": 14.944379806518555,
+    "timeViewPanel_5": 24.0035457611084,
+    "timeClosePanel_6": 17.837772369384767,
+    "timeColorPanel_7": 25.646072387695314,
+    "timeSizePanel_8": 25.444677352905275,
+    "timeCollectPanel_9": 16.263736724853517,
+    "timeBoxPanel_10": 15.180689811706543
+}
