@@ -7520,7 +7520,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 477403959}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.2, z: -1.344}
+  m_LocalPosition: {x: 0.26, y: 0.2, z: -0.68}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1053558388}
@@ -21087,9 +21087,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mode: "\u6FC0\u5149"
-  number: 1
-  name: 
-  date: 2018-10-10
+  number: 0
+  name: "\u9093\u598D\u6021"
+  date: 20181010
   path: C:\Users\Public\Documents\Unity Projects\OOO\dyy\TrainingBeam\Assets\StreamData\Record
 --- !u!4 &1797961830
 Transform:
