@@ -83,3 +83,20 @@
     "timeCollectPanel_9": 24.76396942138672,
     "timeBoxPanel_10": 21.52106285095215
 }
+{
+    "playerMode": "手柄",
+    "playerNumber": 2,
+    "playerName": "钱烨尧",
+    "playerDate": "20181011",
+    "timeEmpty_0": 22.48064422607422,
+    "timeGrabPanel_1": 21.164400100708009,
+    "timeEnlargePanel_2": 15.684004783630371,
+    "timeShrinkPanel_3": 2.2785863876342775,
+    "timeRotatePanel_4": 6.479136943817139,
+    "timeViewPanel_5": 119.76142883300781,
+    "timeClosePanel_6": 17.601877212524415,
+    "timeColorPanel_7": 25.379167556762697,
+    "timeSizePanel_8": 16.006689071655275,
+    "timeCollectPanel_9": 22.172199249267579,
+    "timeBoxPanel_10": 10.645350456237793
+}
