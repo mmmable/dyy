@@ -100,3 +100,54 @@
     "timeCollectPanel_9": 22.172199249267579,
     "timeBoxPanel_10": 10.645350456237793
 }
+{
+    "playerMode": "手柄",
+    "playerNumber": 3,
+    "playerName": "吴伊凡",
+    "playerDate": "20181011",
+    "timeEmpty_0": 11.138669967651368,
+    "timeGrabPanel_1": 0.0,
+    "timeEnlargePanel_2": 0.0,
+    "timeShrinkPanel_3": 0.0,
+    "timeRotatePanel_4": 0.0,
+    "timeViewPanel_5": 0.0,
+    "timeClosePanel_6": 0.0,
+    "timeColorPanel_7": 0.0,
+    "timeSizePanel_8": 0.0,
+    "timeCollectPanel_9": 0.0,
+    "timeBoxPanel_10": 0.0
+}
+{
+    "playerMode": "手柄",
+    "playerNumber": 3,
+    "playerName": "吴伊凡",
+    "playerDate": "20181011",
+    "timeEmpty_0": 143.96861267089845,
+    "timeGrabPanel_1": 17.71697998046875,
+    "timeEnlargePanel_2": 24.69504737854004,
+    "timeShrinkPanel_3": 21.05467414855957,
+    "timeRotatePanel_4": 19.255273818969728,
+    "timeViewPanel_5": 28.305870056152345,
+    "timeClosePanel_6": 11.930359840393067,
+    "timeColorPanel_7": 25.756973266601564,
+    "timeSizePanel_8": 28.33628273010254,
+    "timeCollectPanel_9": 27.846860885620118,
+    "timeBoxPanel_10": 15.348729133605957
+}
+{
+    "playerMode": "手柄",
+    "playerNumber": 4,
+    "playerName": "林雯晖",
+    "playerDate": "20181011",
+    "timeEmpty_0": 186.15792846679688,
+    "timeGrabPanel_1": 30.3486328125,
+    "timeEnlargePanel_2": 43.66256332397461,
+    "timeShrinkPanel_3": 23.75772476196289,
+    "timeRotatePanel_4": 24.697601318359376,
+    "timeViewPanel_5": 162.26202392578126,
+    "timeClosePanel_6": 65.61308288574219,
+    "timeColorPanel_7": 32.368988037109378,
+    "timeSizePanel_8": 42.47892379760742,
+    "timeCollectPanel_9": 26.618587493896486,
+    "timeBoxPanel_10": 31.355722427368165
+}

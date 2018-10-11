@@ -83,3 +83,54 @@
     "timeCollectPanel_9": 36.26831817626953,
     "timeBoxPanel_10": 12.588417053222657
 }
+{
+    "playerMode": "激光",
+    "playerNumber": 3,
+    "playerName": "吴伊凡",
+    "playerDate": "20181011",
+    "timeEmpty_0": 15.662662506103516,
+    "timeGrabPanel_1": 0.0,
+    "timeEnlargePanel_2": 0.0,
+    "timeShrinkPanel_3": 0.0,
+    "timeRotatePanel_4": 0.0,
+    "timeViewPanel_5": 0.0,
+    "timeClosePanel_6": 0.0,
+    "timeColorPanel_7": 0.0,
+    "timeSizePanel_8": 0.0,
+    "timeCollectPanel_9": 0.0,
+    "timeBoxPanel_10": 0.0
+}
+{
+    "playerMode": "激光",
+    "playerNumber": 3,
+    "playerName": "吴伊凡",
+    "playerDate": "20181011",
+    "timeEmpty_0": 47.11529541015625,
+    "timeGrabPanel_1": 15.1671781539917,
+    "timeEnlargePanel_2": 26.80400276184082,
+    "timeShrinkPanel_3": 43.46083068847656,
+    "timeRotatePanel_4": 14.437158584594727,
+    "timeViewPanel_5": 39.79494094848633,
+    "timeClosePanel_6": 12.532476425170899,
+    "timeColorPanel_7": 26.006038665771486,
+    "timeSizePanel_8": 27.79327964782715,
+    "timeCollectPanel_9": 11.667981147766114,
+    "timeBoxPanel_10": 10.181939125061036
+}
+{
+    "playerMode": "激光",
+    "playerNumber": 4,
+    "playerName": "林雯晖",
+    "playerDate": "20181011",
+    "timeEmpty_0": 80.89872741699219,
+    "timeGrabPanel_1": 16.172943115234376,
+    "timeEnlargePanel_2": 42.064414978027347,
+    "timeShrinkPanel_3": 81.16082763671875,
+    "timeRotatePanel_4": 13.773062705993653,
+    "timeViewPanel_5": 27.712528228759767,
+    "timeClosePanel_6": 11.827147483825684,
+    "timeColorPanel_7": 26.853504180908204,
+    "timeSizePanel_8": 29.48828125,
+    "timeCollectPanel_9": 11.594833374023438,
+    "timeBoxPanel_10": 29.732126235961915
+}

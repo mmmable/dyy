@@ -21133,8 +21133,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mode: "\u624B\u67C4"
-  number: 2
-  name: "\u94B1\u70E8\u5C27"
+  number: 4
+  name: "\u6797\u96EF\u6656"
   date: 20181011
   path: C:\Users\Public\Documents\Unity Projects\OOO\dyy\TrainingHandle\Assets\StreamData\Record
 --- !u!4 &1797961830
