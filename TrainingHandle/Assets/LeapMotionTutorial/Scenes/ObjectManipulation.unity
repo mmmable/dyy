@@ -21133,9 +21133,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mode: "\u624B\u67C4"
-  number: 4
-  name: "\u6797\u96EF\u6656"
-  date: 20181011
+  number: 12
+  name: "\u6F58\u5BB6\u4FCA"
+  date: 20181013
   path: C:\Users\Public\Documents\Unity Projects\OOO\dyy\TrainingHandle\Assets\StreamData\Record
 --- !u!4 &1797961830
 Transform:
